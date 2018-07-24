@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-run-script",
+  "version": "1.1.0",
+  "description": "NodeRED node type for running shell scripts",
+  "author": "Matúš Tomlein",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matus-tomlein/node-red-contrib-run-script"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "dependencies": {
+    "is-utf8": "^0.2.1"
+  },
+  "node-red": {
+    "nodes": {
+      "run-script": "run-script.js"
+    }
+  }
+}
